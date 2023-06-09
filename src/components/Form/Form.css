@@ -20,6 +20,7 @@
         justify-items: center;
         align-items: center;
         border: 2px solid #ccc;
+        gap: 3px;
     }
 
     .ulType {
@@ -29,6 +30,13 @@
         justify-items: center;
         align-items: center;
         border: #ccc 2px solid;
+    }
+
+    .liForm {
+        display: flex;
+        width: 120px;
+        justify-content: space-between;
+
     }
 
     .divNumber {
@@ -74,7 +82,6 @@
     }
 
     .liForm {
-        display: flex;
         gap: 8px;
     }
 }

@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 const Ship = ({ name, nation, description, type, images, ship_id }) => {
 
   Aos.init({
-    duration: 1500,
+    duration: 1000,
     useClassNames: true,
   })
 
