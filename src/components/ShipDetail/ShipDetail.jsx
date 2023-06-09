@@ -1,5 +1,5 @@
 import React from 'react'
-import './shipDetail.css'
+import './ShipDetail.css'
 
 const ShipDetail = ({ name, tier, images, description, type, default_profile, is_premium, is_special, price_credit, price_gold }) => {
 
