@@ -9,7 +9,7 @@ const NavBar = () => {
       </nav>
 
       <NavLink to={"/"}>
-        <img src="./public/logo.webp" alt="World of Warships" className='logo' />
+        <img src="public/logo.webp" alt="World of Warships" className='logo' />
       </NavLink>
 
     </header>
