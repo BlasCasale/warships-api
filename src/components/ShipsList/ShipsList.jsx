@@ -1,6 +1,6 @@
 import React from 'react'
 import Ship from '../Ship/Ship'
-import './shipsList.css'
+import './ShipsList.css'
 
 const ShipsList = ({ ships }) => {
 
