@@ -1,0 +1,35 @@
+.cardShip {
+    height: 750px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: #ccc 3px solid;
+    background-color: #7EA8BE;
+}
+
+.pShip {
+    text-align: center;
+}
+
+.pShipDescription {
+    text-align: center;
+    padding: 10px;
+    height: 250px;
+    overflow: hidden;
+}
+
+.pShipDescription:hover {
+    transform: scale(1.03);
+}
+
+.shipLink {
+    color: black;
+    transition: 1s;
+}
+
+.shipLink:hover {
+    color: lightgray;
+}

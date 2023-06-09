@@ -1,0 +1,22 @@
+@media screen and (min-width: 320px) {
+    .shipsList {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        grid-template-columns: 310px;
+        grid-template-rows: max-content;
+    }
+}
+
+@media screen and (min-width: 740px) {
+    .shipsList {
+        grid-template-columns: repeat(2, 310px);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .shipsList {
+        grid-template-columns: repeat(3, 310px);
+    }
+}

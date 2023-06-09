@@ -1,0 +1,37 @@
+@media screen and (min-width: 320px) {
+    .boxPagination {
+        display: grid;
+        justify-items: center;
+        align-items: center;
+        grid-template-columns: repeat(5, 55px);
+        grid-template-rows: max-content;
+        gap: 5px;
+    }
+
+    .paginationButton {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        color: #ccc;
+        background-color: #F18F01;
+        border: none;
+    }
+
+    .paginationButtonActive {
+        font-size: 20px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        color: #fff;
+        background-color: #ffe400;
+        border: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .boxPagination {
+        display: flex;
+        gap: 10px;
+    }
+}

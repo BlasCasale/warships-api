@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.buttonFilter {
+    background-color: #F18F01;
+    font-size: 20px;
+    border: none;
+    color: #ccc;
+    border-radius: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+
+.buttonFilter:hover {
+    background-color: #FF570A;
+}
